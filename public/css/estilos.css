@@ -1,0 +1,48 @@
+html,body{height: 100%}
+body{font-family: 'Open Sans', sans-serif;font-size: 14px;}
+
+a:hover{text-decoration: none;cursor:pointer;color: #499db9!important}
+h3 {font-size: 20px;font-weight: bold;}
+h2 {font-size: 80%;text-align: center;font-weight: bold}
+p {font-size: 14px}
+input{text-align: center;border-radius: 5px;border: 0;padding: 3%;margin: 1%;border-bottom:ridge 1px rgb(82, 141, 218)}
+select{text-align: center;}
+::placeholder{color:#0690D1;text-align:center}
+iframe{width: 100%;height: 100%}
+
+/*  TABLE   */
+table{display: table;font-size:80%;background:#FFFFFF;font-family: "Segoe UI"}
+tbody tr{border-bottom: 1px solid rgba(0,0,0,0.12)}
+th{text-align:center;position:sticky;top:0;background:#FFFFFF}
+th input{width: -webkit-fill-available;text-transform: uppercase}
+td{text-align:center!important;padding:10px}
+td a{color:#0690D1 !important;}
+
+.p-10px {padding: 10px}
+.boxLogo {display: flex;justify-content: center;position: absolute;}
+.boxLogo h1>small {color: #20bf6b}
+
+#subir{display: none;opacity: 0;transition: all 0.3s ease 0s}
+
+/* ESTILOS HEADER */
+header{display: flex;justify-content: center;align-items: center;width: 100%;height: 90vh;color: #000;overflow: hidden}
+header img{width: 40%;right: -19%;}
+
+a.botonGetStarted {display: inline-block;width: 135px;text-align: center;margin-top: 20px;color: #fff;padding: 8px 20px;background-color: #20bf6b;
+    border-radius: 35px;border: 2px solid #20bf6b;box-shadow: 0px 5px 18px rgba(0, 0, 0, .2);transition: all 0.3s ease 0s;text-decoration: none;}
+a.botonGetStarted:hover {color: #20bf6b !important;background-color: transparent;border-radius: 6px;transition: all 0.3s ease 0s;
+    box-shadow: 0px 15px 18px rgba(32, 191, 107, 0.4);transform: translateY(-6px)}
+
+/* ESTILOS MAIN */
+main{position: relative;width: 100%;background-color: #fff;top: 6%;height:88vh;text-align: -webkit-center}
+section{height: 100vh;padding-top: 4%;width: 90%;vertical-align:middle;}
+.boxInfo{background-color: #f6f6f6;height:80vh;text-align: center;width: 85%;position: fixed;overflow: auto;margin-left: 7.5%;}
+
+/*  ESTILOS FOOTER Y NAV*/
+#nav{top: 0;position: fixed;background-color: silver;}
+nav{padding: 1%;text-align: center;justify-content:center;width: 100%;background-color: rgb(82, 141, 218)}
+nav a{padding: 1%;color:rgb(67, 67, 75);font-weight:normal;text-decoration: none}
+nav a:hover{box-shadow: 0 2px 2px -2px #1a1a1a;color: inherit;}
+
+footer {background:#f6f6f6;padding:1%;position: fixed;bottom: 0;text-align: center;width: 100%;}
+footer p {margin-bottom: 0;color: #666666}
