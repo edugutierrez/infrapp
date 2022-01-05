@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "infrapp",
+    "e.g.": "infrapp-ar"
+  }
+}

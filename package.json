@@ -1,0 +1,20 @@
+{
+  "name": "infrapp",
+  "version": "1.0.0",
+  "description": "new version",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "deploy":"firebase deploy --only hosting:infrapp",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "infrapp"
+  },
+  "author": "Eduardo Gutierrez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
